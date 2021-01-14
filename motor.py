@@ -15,12 +15,12 @@ def loop():
     GPIO.output(Motor1A,GPIO.HIGH)
     GPIO.output(Motor1B,GPIO.LOW)
  
-    sleep(5)
-    GPIO.output(Motor1A,GPIO.LOW)
-    GPIO.output(Motor1B,GPIO.HIGH)
+    sleep(0.086)
+    #GPIO.output(Motor1A,GPIO.LOW)
+    #GPIO.output(Motor1B,GPIO.HIGH)
 
  
-    sleep(5)
+    #sleep(5)
     GPIO.output(Motor1A,GPIO.LOW)
     GPIO.output(Motor1B,GPIO.LOW)
 
